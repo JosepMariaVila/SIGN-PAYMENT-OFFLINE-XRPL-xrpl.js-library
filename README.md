@@ -1,4 +1,6 @@
-Sign a transaction offline from html input data and then submit it to the XRPL using the xrpl.js library.
+Sign a transaction offline from html input data and then submit it to the XRPL. 
+
+It uses the xrpl.js library.
 
 You need Node.js and VisualStudioCode to set up the project. Then you would sign completely offline through the HTML file.
 
@@ -16,12 +18,12 @@ Step by step guide to use the code:
 
 5) Then type in the terminal (it installs the library): npm install --save xrpl
 
-6) Close VisualStudioCode.
+6) Close VisualStudioCode
   
-7) Open the folder and open the HTML file and disconnect the internet connection.
+7) Open the folder and open the HTML file and disconnect the internet connection
 
-8) Populate the html fields and SIGN the transaction offline.
+8) Populate the html fields and SIGN the transaction offline
 
-9) Then copy the tx blob and past it in the Tx_blob section bellow and SUBMIT the transaction online, watch the results.
+9) Then copy the tx blob and past it in the Tx_blob section bellow and SUBMIT the transaction online, watch the results
 
 To try it online here: https://skunk-proper-smoothly.ngrok-free.app/tools/signsubmit/signsubmit
