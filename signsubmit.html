@@ -9,15 +9,17 @@
        button{font-weight: bold;font-family: "Work Sans", sans-serif;}
        td{vertical-align: middle;}
     </style>
-    <script src='https://unpkg.com/xrpl@2.7.0/build/xrpl-latest-min.js'></script>
+  <script>
+    if (typeof module !== "undefined") {
+      var xrpl = require('xrpl')
+    }
+  </script>
+    <script src='node_modules/xrpl/build/xrpl-latest-min.js'></script>
+    <script src='node_modules/xrpl/build/xrpl-latest-min.js.map'></script>
+    <script src='node_modules/xrpl/build/xrpl-latest.js'></script>
+    <script src='node_modules/xrpl/build/xrpl-latest.js.map'></script>
     <script src='signsubmit.js'></script>
 
-
-    <script>
-      if (typeof module !== "undefined") {
-        const xrpl = require('xrpl')
-      }
-    </script>
   </head>
   
 <!-- ********************** The Form ****************************** -->

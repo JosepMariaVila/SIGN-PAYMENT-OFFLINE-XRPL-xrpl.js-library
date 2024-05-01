@@ -1,5 +1,4 @@
 // ******************** SIGN TRANSACTION OFFLINE ********
-
 async function sign1() {
   const wallet = xrpl.Wallet.fromSeed(standbySeedField.value);
   const amount = standbyAmountField.value;
@@ -20,7 +19,7 @@ async function sign1() {
   console.log("tx hash is:", signed.hash);
   standbyResultField.value =
     "tx blob is: " + signed.tx_blob + "\ntx hash is: \n" + signed.hash;
-} // End of sign1()
+} // End of main()
 
 async function reload() {
   window.location.reload();
