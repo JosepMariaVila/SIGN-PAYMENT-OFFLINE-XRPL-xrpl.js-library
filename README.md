@@ -1,4 +1,4 @@
-Sign a transaction offline from html input data and then submit it to the XRPL.
+Sign a transaction offline from html input data and then submit it to the XRPL using the xrpl.js library.
 
 You need Node.js and VisualStudioCode to set up the project. Then you would sign completely offline through the HTML file.
 
