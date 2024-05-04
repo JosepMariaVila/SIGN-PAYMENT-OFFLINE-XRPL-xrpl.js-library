@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>SIGN SUBMIT</title>
+    <title>SIGN PAYMENT OFFLINE XRPL</title>
     <link href='https://fonts.googleapis.com/css?family=Work Sans' rel='stylesheet'>
     <style>
        body{font-family: "Work Sans", sans-serif;padding: 20px;background: #ce91e2;}
@@ -25,8 +25,17 @@
 <!-- ********************** The Form ****************************** -->
 
   <body>
-    <h1>SIGN TRANSACTION OFFLINE</h1>
-    <form id="theForm">
+    <h1>SIGN PAYMENT OFFLINE XRPL</h1>
+    <form id="theForm2">
+      Choose algo:  
+      &nbsp;&nbsp;
+      <input type="radio" id="secp" name="algorit" value="secp256k1">
+      <label for="secpp">Secp256k1 (29 characters seeds)</label>
+      &nbsp;&nbsp;
+      <input type="radio" id="ed" name="algorit" value="ed25519">
+      <label for="dedd">Ed25519 (31 characters seeds)</label>
+      &nbsp;&nbsp;
+      <br/><br/>
       <table>
         <tr valign="top">
           <td>
@@ -71,7 +80,7 @@
                       </td>
                     </tr>
                   </table>
-                  <button type="button" onClick="sign1()">Sign transaction offline</button>
+                  <button type="button" onClick="sign1()">Sign payment offline</button>
                   <p align="right">
                     <textarea id="standbyResultField" cols="90" rows="8" ></textarea>
                   </p>
@@ -85,7 +94,7 @@
       </table>
     </form>
 
-    <h1>SUBMIT TRANSACTION ONLINE</h1>
+    <h1>SUBMIT SIGNED TRANSACTION ONLINE XRPL</h1>
     <form id="theForm">
       Choose:  
       &nbsp;&nbsp;

@@ -1,6 +1,17 @@
+// ******************** GET ALGORITHM ********
+function getAlgo() {
+  let algo;
+  if (document.getElementById("secp").checked) algo = "secp256k1";
+  if (document.getElementById("ed").checked) algo = "ed25519";
+  return algo;
+} // End of getAlgo()
+
 // ******************** SIGN TRANSACTION OFFLINE ********
 async function sign1() {
-  const wallet = xrpl.Wallet.fromSeed(standbySeedField.value);
+  let algo = getAlgo();
+  const wallet = xrpl.Wallet.fromSeed(standbySeedField.value, {
+    algorithm: algo,
+  });
   const amount = standbyAmountField.value;
   const seq = Number(sequenceField.value);
 
