@@ -2,6 +2,12 @@ Sign a transaction offline from html input data and then submit it to the XRPL.
 
 It uses the xrpl.js library.
 
+It uses a seed to derive the account address and sign transactions, 2 options are possible:
+
+Option A: 29 characters seeds (suNq9PQrYKEifmLdFs9NPjdLeyMKm) which correspond to the secp256k1 algorithm.
+
+Option B: 31 characters seeds (sKdNVBLAmVjgcDrEfDSzTSBqsagHMEd) which correspond to the ed25519 algorithm.
+
 You need Node.js and VisualStudioCode to set up the project. Then you would sign completely offline through the HTML file.
 
 Step by step guide to use the code:
