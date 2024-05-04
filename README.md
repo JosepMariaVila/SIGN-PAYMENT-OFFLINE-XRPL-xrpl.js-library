@@ -26,4 +26,4 @@ Step by step guide to use the code:
 
 9) Then copy the tx blob and past it in the Tx_blob section bellow and SUBMIT the transaction online, watch the results
 
-To try it online here: https://skunk-proper-smoothly.ngrok-free.app/tools/signsubmit/signsubmit
+To try it online here: https://skunk-proper-smoothly.ngrok-free.app/tools/signofflinepayment/signsubmit
