@@ -28,8 +28,8 @@ Step by step guide to use the code:
   
 7) Open the folder and open the HTML file and disconnect the internet connection
 
-8) Populate the html fields and SIGN the transaction offline
+8) Populate the html fields and SIGN the transaction offline (from now on don't use this computer to connect to internet, in order to protect the private key)
 
-9) Then copy the tx blob and past it in the Tx_blob section bellow and SUBMIT the transaction online, watch the results
+9) Then, using another computer, copy the tx blob and past it in the Tx_blob section bellow and SUBMIT the transaction online, watch the results
 
 To try it online here: https://skunk-proper-smoothly.ngrok-free.app/tools/signsubmit/signsubmit
